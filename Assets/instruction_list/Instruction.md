@@ -39,3 +39,9 @@ Example language instructions for VLA training data
 - "Wipe plate with blue towel"
 - "Wipe pan with yellow towel"
 - "Wipe whiteboard with sponge"
+
+## Complex Sentence
+- "If the cup smells like apple juice place it on the white plate, otherwise place it on the yellow plate"
+- "If the banana is rotten drop it in the trash, otherwise place it on the plate"
+- "If the bread is rotten drop it in the trash, otherwise place it on the plate"
+- "If the tofu is rotten drop it in the trash, otherwise place it on the plate"
