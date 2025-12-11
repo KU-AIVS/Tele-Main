@@ -1,6 +1,9 @@
 # Tele-Main
 Teleoperation-based VLA Data Collection Algorithm
 
+<img src="https://github.com/KU-AIVS/Tele-Main.git/Assets/tele_main_setting.jpg"  width="900"/>
+
+
 The teleporation-based VLA data construction algorithm focuses on efficiently generating high-quality robot learning data by combining ROS communication with data refinement techniques.
 
 ## Real-time teleperation integration over ROS
