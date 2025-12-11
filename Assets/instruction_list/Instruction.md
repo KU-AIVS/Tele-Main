@@ -21,3 +21,8 @@ Example language instructions for VLA training data
 - "Put the object used for eating on towel"
 - "Put the grape-scented cup on the plate"
 - "Put the can into the basket"
+  
+## Stack
+- "Stack the blue cup into the yellow cup"
+- "Stack the red bowl into the white bowl"
+- "Stack the green plate into the blue plate"
