@@ -30,3 +30,9 @@ Example language instructions for VLA training data
 ## Place
 - "Place the red block onto the yellow block"
 - "Place the bread onto the white plate"
+
+## Move
+- "Move mushroom to measuring tape"
+- "Move screwdriver to desk"
+
+
