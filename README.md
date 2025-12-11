@@ -9,3 +9,9 @@ The teleporation-based VLA data construction algorithm focuses on efficiently ge
 ## Real-time teleperation integration over ROS
 - Dual-arm control architecture: We adopt a control structure in which the motion of a robot arm without a gripper (master device) is transmitted via ROS to a gripper-equipped robot arm (controlled arm) and used to control it in real time.
 - Intuitive data collection: By directly providing motions through teleoperation, the user can intuitively generate complex robot trajectories, which facilitates the collection of diverse, high-dimensional action data.
+
+## Key Features
+- Unified I/O: All data inputs and outputs-such as joint values, third-person RGB images, and keyboard inputs (for gripper control) are integrated and recorded at each step within the ROS environment.
+- Multi-modality data storage: During task execution, the system simultaneously logs the robot arm's joint values (6-DoF joint angles) and third-person visual information (RGB images).
+- Language instruction integration: For each episode, a corresponding natural language instruction is specified as the initial input, enabling the construction of vision-language-action mapping data that is essential for training VLA models.
+- Automatic reset to initial state: At the end of each data collection episode, both rebot arms automatically return to their initial poses, keeping the starting state of subsequent episodes consistent and ensuring the reproducibility of data collection.
