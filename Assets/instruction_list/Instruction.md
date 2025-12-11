@@ -35,4 +35,7 @@ Example language instructions for VLA training data
 - "Move mushroom to measuring tape"
 - "Move screwdriver to desk"
 
-
+## Wipe
+- "Wipe plate with blue towel"
+- "Wipe pan with yellow towel"
+- "Wipe whiteboard with sponge"
