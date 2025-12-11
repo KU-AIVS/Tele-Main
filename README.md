@@ -15,3 +15,16 @@ The teleporation-based VLA data construction algorithm focuses on efficiently ge
 - Multi-modality data storage: During task execution, the system simultaneously logs the robot arm's joint values (6-DoF joint angles) and third-person visual information (RGB images).
 - Language instruction integration: For each episode, a corresponding natural language instruction is specified as the initial input, enabling the construction of vision-language-action mapping data that is essential for training VLA models.
 - Automatic reset to initial state: At the end of each data collection episode, both rebot arms automatically return to their initial poses, keeping the starting state of subsequent episodes consistent and ensuring the reproducibility of data collection.
+
+## Tutorial
+1. Run tele_main.py to start teleoperation.
+
+2. Directly move robot1 (LeaderArm) to control the behavior of robot2 (FollowerArm).
+
+3. Gripper control and episode termination are performed via keyboard input (c: open gripper, z: close gripper, q: terminate).
+
+4. Each robot action episode is saved as a single .npy file, which is internally organized as a step-wise dictionary.
+
+Save format: episode_000_{instruction}.npy
+000: episode index
+{instruction}: language instruction assigned to that episode
