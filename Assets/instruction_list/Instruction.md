@@ -8,3 +8,16 @@ Example language instructions for VLA training data
 - "Pick up the bread and place it on the table"
 - "Pick up any object that is not yellow"
 - "Pick up any object that is not a duck"
+- "Pick up the banana and place it onto the blue plate"
+
+
+## Put
+- "Put mushroom in pot"
+- "Put spoon on towel"
+- "Put the mushroom in left container"
+- "Put purple object in left container"
+- "Put left object on the middle object"
+- "Put the edible object in the bowl"
+- "Put the object used for eating on towel"
+- "Put the grape-scented cup on the plate"
+- "Put the can into the basket"
